@@ -38,18 +38,13 @@ Plugin 'VundleVim/Vundle.vim'
 " Install the following plugins
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'msanders/snipmate.vim'
-Plugin 'stephpy/vim-php-cs-fixer'
-Plugin 'godlygeek/tabular'
-Plugin 'tpope/vim-surround'
 Plugin 'tobyS/vmustache'
-Plugin 'tobyS/pdv'
 Plugin 'SirVer/ultisnips'
 Plugin 'scrooloose/nerdtree'
 Plugin 'valloric/matchtagalways'
 Plugin 'tpope/vim-fugitive'
 Plugin 'jwalton512/vim-blade'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'dsawardekar/wordpress.vim'
 
 " End plugin setup. All of your Plugins must be added before the following line
 call vundle#end() 
