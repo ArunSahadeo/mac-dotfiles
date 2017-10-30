@@ -115,3 +115,6 @@ autocmd BufWritePost $MYVIMRC :source $MYVIMRC
 
 " Set Blade files to HTML file type
 au BufRead,BufNewFile *.blade.* set filetype=html
+
+" Set Typescript files to JS file type
+au BufRead,BugNewFile *.ts set filetype=javascript
