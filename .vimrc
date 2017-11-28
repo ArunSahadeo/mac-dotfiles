@@ -10,7 +10,7 @@ set title
 set mouse=a
 
 " Toggle soft wrap
-set wrap
+nnoremap <Space>q :set wrap! wrap?<CR>
 
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
