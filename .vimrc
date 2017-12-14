@@ -63,6 +63,9 @@ set hidden
 " Auto match HTML tags
 runtime macros/matchit.vim
 
+" Snippets plugin
+runtime internal/snippets.vim
+
 " Make Vim case insensitive
 set ignorecase
 
@@ -118,3 +121,6 @@ au BufRead,BufNewFile *.blade.* set filetype=html
 
 " Set Typescript files to JS file type
 au BufRead,BufNewFile *.ts set filetype=javascript
+
+" Set MJML files to HTML file type
+au BufRead,BufNewFile *.mjml set filetype=html
